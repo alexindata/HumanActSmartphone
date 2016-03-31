@@ -1,16 +1,18 @@
 ==================================================================
-A tidy dataset generated from the raw dataset "Human Activity Recognition Using Smartphones Dataset Version 1.0" 
+A tidy dataset generated from the UCI raw dataset: 
 ------------------------------------------------------------------
+###"Human Activity Recognition Using Smartphones Dataset Version 1.0" 
+
 Wei Wei 2016-03-30
+
 https://github.com/alexindata/HumanActSmartphone
 
-
-
-###Weblink of the raw dataset:
+Weblink of the raw dataset:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 A full description of the raw dataset:
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
@@ -36,7 +38,6 @@ For each record in 'all_mean_std.csv' it is provided:
 - A 66-feature vector with the variables that are measurements on the mean and standard deviation for each measurement. 
  
 
-
 For each record in 'tidy_avg.csv' it is provided:
 ------------------------------------------------------------------
 
@@ -45,10 +46,9 @@ For each record in 'tidy_avg.csv' it is provided:
 - A 66-feature vector with the average of the variables for each activity and each subject.
 
 
-Original Readme.txt file content for the raw dataset follows:
-------------------------------------------------------------------
-Human Activity Recognition Using Smartphones Dataset
-Version 1.0
+###Original Readme.txt file content for the raw dataset follows:
+
+Human Activity Recognition Using Smartphones Dataset Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
