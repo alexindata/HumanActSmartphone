@@ -1,13 +1,13 @@
 ==================================================================
 A tidy dataset generated from the raw dataset "Human Activity Recognition Using Smartphones Dataset Version 1.0" 
-==================================================================
+------------------------------------------------------------------
 Wei Wei 2016-03-30
 https://github.com/alexindata/HumanActSmartphone
-------------------------------------------------------------------
 
 
-Weblink of the raw dataset:
-------------------------------------------------------------------
+
+###Weblink of the raw dataset:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 A full description of the raw dataset:
@@ -15,21 +15,21 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 
 The tidy dataset includes the following files:
-==================================================================
+------------------------------------------------------------------
 
--'README.md'
+- 'README.md'
 
--'all_mean_std.csv': the processed data by merging raw data and extracting only the variables that are the mean and standard deviation for each measurement
+- 'all_mean_std.csv': the processed data by merging raw data and extracting only the variables that are the mean and standard deviation for each measurement
 
--'tidy_avg.csv': the tidy data of the average of each variable for each activity and each subject
+- 'tidy_avg.csv': the tidy data of the average of each variable for each activity and each subject
 
--'run_analysis.r': the R script that generates 'all_mean_std.csv' and 'tidy_avg.csv' from the raw data
+- 'run_analysis.r': the R script that generates 'all_mean_std.csv' and 'tidy_avg.csv' from the raw data
 
--'codebook.txt': the codebook for 'run_analysis.r'
+- 'codebook.txt': the codebook for 'run_analysis.r'
 
 
 For each record in 'all_mean_std.csv' it is provided:
-==================================================================
+------------------------------------------------------------------
 
 - An identifier of the subject who carried out the experiment.
 - Its activity label. 
@@ -38,7 +38,7 @@ For each record in 'all_mean_std.csv' it is provided:
 
 
 For each record in 'tidy_avg.csv' it is provided:
-==================================================================
+------------------------------------------------------------------
 
 - An identifier of the subject who carried out the experiment.
 - Its activity label.
@@ -46,7 +46,7 @@ For each record in 'tidy_avg.csv' it is provided:
 
 
 Original Readme.txt file content for the raw dataset follows:
-==================================================================
+------------------------------------------------------------------
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
