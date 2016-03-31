@@ -18,16 +18,16 @@ The tidy dataset includes the following files:
 
 - 'README.md'
 
-- 'all_mean_std.csv': the processed data by merging raw data and extracting only the variables that are the mean and standard deviation for each measurement
+- 'all_mean_std.txt': the processed data by merging raw data and extracting only the variables that are the mean and standard deviation for each measurement
 
-- 'tidy_avg.csv': the tidy data of the average of each variable for each activity and each subject
+- 'tidy_avg.txt': the tidy data of the average of each variable for each activity and each subject
 
-- 'run_analysis.r': the R script that generates 'all_mean_std.csv' and 'tidy_avg.csv' from the raw data
+- 'run_analysis.r': the R script that generates 'all_mean_std.txt' and 'tidy_avg.txt' from the raw data
 
 - 'codebook.txt': the codebook for 'run_analysis.r'
 
 
-For each record in 'all_mean_std.csv' it is provided:
+For each record in 'all_mean_std.txt' it is provided:
 ------------------------------------------------------------------
 
 - An identifier of the subject who carried out the experiment.
@@ -35,7 +35,7 @@ For each record in 'all_mean_std.csv' it is provided:
 - A 66-feature vector with the variables that are measurements on the mean and standard deviation for each measurement. 
  
 
-For each record in 'tidy_avg.csv' it is provided:
+For each record in 'tidy_avg.txt' it is provided:
 ------------------------------------------------------------------
 
 - An identifier of the subject who carried out the experiment.

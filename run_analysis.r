@@ -1,6 +1,6 @@
 ## run_analysis.r
 ## Wei Wei 2016-03-30
-## this script is used to process a raw dataset into tidy data in 'tidy_avg.csv'
+## this script is used to process a raw dataset into tidy data in 'tidy_avg.txt'
 ## analyzes the human activity data from Samsung Galaxy S II smartphone
 ## raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -45,10 +45,10 @@ all_mean_std <- all[, c("id", "activity", grep("-mean\\(|-std\\(", colnames(all)
 ## tidy data, by the average of the variables in all_mean_std for each subject and each activity
 tidy_avg <- all_mean_std %>% group_by(id, activity) %>% summarize_each(funs(mean))
 
-## write all_mean_std, tidy_avg to csv files
-write.table(format(all_mean_std, scientifi=TRUE), file="all_mean_std.csv", 
+## write all_mean_std, tidy_avg to txt files
+write.table(format(all_mean_std, scientifi=TRUE), file="all_mean_std.txt", 
             sep=",", eol="\n", dec=".", row.names=FALSE, col.names=TRUE)
-write.table(format(tidy_avg, scientific=TRUE), file="tidy_avg.csv", 
+write.table(format(tidy_avg, scientific=TRUE), file="tidy_avg.txt", 
             sep=",", eol="\n", dec=".", row.names=FALSE, col.names=TRUE)
 
 

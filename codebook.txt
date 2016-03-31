@@ -1,4 +1,4 @@
-R script 'run_analysis.r' is used to process raw data to the data in 'all_mean_std.csv' and 'tidy_avg.csv'.
+R script 'run_analysis.r' is used to process raw data to the data in 'all_mean_std.txt' and 'tidy_avg.txt'.
 ================================================================
 
 Data processing steps:
@@ -7,8 +7,8 @@ Data processing steps:
 1. Merged the test and training sets to create one data set, by X_test with X_train and by y_test with y_train.
 2. Used descriptive activity names to name the 6 activities in the data set.
 3. Labeled the data set with the 561 descriptive variable names.
-4. Extracted only the measurements on the mean and standard deviation for each measurement. This processed data is in 'all_mean_std.csv'.
-5. From the dataset in step 4, creates a tidy dataset with the average of each variable for each activity and each subject. This data is in 'tidy_avg.csv'.
+4. Extracted only the measurements on the mean and standard deviation for each measurement. This processed data is in 'all_mean_std.txt'.
+5. From the dataset in step 4, creates a tidy dataset with the average of each variable for each activity and each subject. This data is in 'tidy_avg.txt'.
 
 
 Subjects 
