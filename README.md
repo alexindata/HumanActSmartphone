@@ -3,9 +3,6 @@ A tidy dataset generated from the UCI raw dataset:
 ------------------------------------------------------------------
 ###"Human Activity Recognition Using Smartphones Dataset Version 1.0" 
 
-Wei Wei 2016-03-30
-
-https://github.com/alexindata/HumanActSmartphone
 
 Weblink of the raw dataset:
 
