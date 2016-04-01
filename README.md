@@ -52,6 +52,6 @@ Data processing steps:
 2. Used descriptive activity names to name the 6 activities in the data set.
 3. Labeled the data set with the 561 descriptive variable names.
 4. Extracted only the 66 measurements on the mean and standard deviation for each measurement. This processed data is in 'all_mean_std.txt'.
-5. From the dataset in step 4, creates a tidy dataset with the average of each variable for each activity and each subject. This tidy data 
+5. From the dataset in step 4, created a tidy dataset with the average of each variable for each activity and each subject. This tidy data 
    is in 'tidy_avg.txt'.
 
