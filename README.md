@@ -1,14 +1,17 @@
 ==================================================================
-A tidy dataset generated from the UCI raw dataset: 
+A tidy dataset generated from the UCI HAR raw dataset 
 ------------------------------------------------------------------
-###"Human Activity Recognition Using Smartphones Dataset Version 1.0" 
+#### Wei Wei  2016-03-30
 
+###### Raw dataset:
 
-Weblink of the raw dataset:
+"Human Activity Recognition Using Smartphones Dataset Version 1.0" 
+
+###### Weblink of the raw dataset:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-A full description of the raw dataset:
+###### A full description of the raw dataset:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
