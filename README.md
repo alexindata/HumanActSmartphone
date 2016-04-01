@@ -24,7 +24,7 @@ The tidy dataset includes the following files:
 
 - 'run_analysis.r': the R script that generates 'all_mean_std.txt' and 'tidy_avg.txt' from the raw data
 
-- 'codebook.txt': the variables code book for 'run_analysis.r'
+- 'codebook.md': the variables code book for 'run_analysis.r'
 
 
 For each record in 'all_mean_std.txt' it is provided:
