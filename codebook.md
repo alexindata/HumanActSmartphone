@@ -1,7 +1,7 @@
 ================================================================
-This is the code book for 'run_analysis.r'.
+The code book for 'run_analysis.r'
 ================================================================
-#### Wei Wei  2016-03-30
+#### Wei Wei 2016-03-30
 #### 'run_analysis.r' is used to process the raw dataset to the data in 'all_mean_std.txt' and 'tidy_avg.txt'.
 
 
@@ -9,17 +9,17 @@ Variables:
 ================================================================
 
 
-## Subjects 
+### Subjects 
 
 There are 30 volunteers identified by an integer from 1 to 30.
 
 
-## Activities
+### Activities
 
 There are 6 activities, 'WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING'.
 
 
-## Feature Selection 
+### Feature Selection 
 
 There are 66 feature variables extracted from the raw dataset. The full list is shown below (*).
 
@@ -56,7 +56,7 @@ The set of variables that were estimated from these signals are:
 - std(): Standard deviation
 
 
-## (*) Full list of extracted feature variables 
+### (*) Full list of extracted feature variables 
 
 - "1" "tBodyAcc-mean()-X"
 - "2" "tBodyAcc-mean()-Y"
@@ -126,7 +126,7 @@ The set of variables that were estimated from these signals are:
 - "66" "fBodyBodyGyroJerkMag-std()"
 
 
-## Feature variable units
+### Feature variable units
 
 The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'.
 
